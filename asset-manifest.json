@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/flexchanger/static/css/main.d3eee3ab.chunk.css",
+    "main.js": "/flexchanger/static/js/main.ca110a5f.chunk.js",
+    "main.js.map": "/flexchanger/static/js/main.ca110a5f.chunk.js.map",
+    "runtime-main.js": "/flexchanger/static/js/runtime-main.2c8d9ee6.js",
+    "runtime-main.js.map": "/flexchanger/static/js/runtime-main.2c8d9ee6.js.map",
+    "static/js/2.bb571121.chunk.js": "/flexchanger/static/js/2.bb571121.chunk.js",
+    "static/js/2.bb571121.chunk.js.map": "/flexchanger/static/js/2.bb571121.chunk.js.map",
+    "static/js/3.dbf22f27.chunk.js": "/flexchanger/static/js/3.dbf22f27.chunk.js",
+    "static/js/3.dbf22f27.chunk.js.map": "/flexchanger/static/js/3.dbf22f27.chunk.js.map",
+    "index.html": "/flexchanger/index.html",
+    "static/css/main.d3eee3ab.chunk.css.map": "/flexchanger/static/css/main.d3eee3ab.chunk.css.map",
+    "static/js/2.bb571121.chunk.js.LICENSE.txt": "/flexchanger/static/js/2.bb571121.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c8d9ee6.js",
+    "static/js/2.bb571121.chunk.js",
+    "static/css/main.d3eee3ab.chunk.css",
+    "static/js/main.ca110a5f.chunk.js"
+  ]
+}
