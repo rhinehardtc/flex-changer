@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/flex-changer/static/css/main.d3eee3ab.chunk.css",
-    "main.js": "/flex-changer/static/js/main.ca110a5f.chunk.js",
-    "main.js.map": "/flex-changer/static/js/main.ca110a5f.chunk.js.map",
+    "main.js": "/flex-changer/static/js/main.dde7a30a.chunk.js",
+    "main.js.map": "/flex-changer/static/js/main.dde7a30a.chunk.js.map",
     "runtime-main.js": "/flex-changer/static/js/runtime-main.6c2ba7bc.js",
     "runtime-main.js.map": "/flex-changer/static/js/runtime-main.6c2ba7bc.js.map",
     "static/js/2.bb571121.chunk.js": "/flex-changer/static/js/2.bb571121.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6c2ba7bc.js",
     "static/js/2.bb571121.chunk.js",
     "static/css/main.d3eee3ab.chunk.css",
-    "static/js/main.ca110a5f.chunk.js"
+    "static/js/main.dde7a30a.chunk.js"
   ]
 }
