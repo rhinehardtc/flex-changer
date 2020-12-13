@@ -8,12 +8,15 @@ function App() {
   const [align, setAlign] = useState('');
   const [justify, setJustify] = useState('');
 
+  const [basis1, setBasis1] = useState('');
   const [grow1, setGrow1] = useState('');
   const [shrink1, setShrink1] = useState('');
 
+  const [basis2, setBasis2] = useState('');
   const [grow2, setGrow2] = useState('');
   const [shrink2, setShrink2] = useState('');
 
+  const [basis3, setBasis3] = useState('');
   const [grow3, setGrow3] = useState('');
   const [shrink3, setShrink3] = useState('');
 
@@ -27,16 +30,19 @@ function App() {
   };
 
   let itemStyle1 = {
+    flexBasis: basis1,
     flexGrow: grow1,
     flexShrink: shrink1,
   }
 
   let itemStyle2 = {
+    flexBasis: basis2,
     flexGrow: grow2,
     flexShrink: shrink2,
   }
 
   let itemStyle3 = {
+    flexBasis: basis3,
     flexGrow: grow3,
     flexShrink: shrink3,
   }
@@ -64,6 +70,9 @@ function App() {
 
         Box 1
         <div className="input_div">
+          flex-basis: <input className="flex_input" onChange={(e) => setBasis1(e.target.value)}></input>
+        </div>
+        <div className="input_div">
           flex-grow: <input className="flex_input" onChange={(e) => setGrow1(e.target.value)}></input>
         </div>
         <div className="input_div">
@@ -72,13 +81,19 @@ function App() {
 
         Box 2
         <div className="input_div">
+          flex-basis: <input className="flex_input" onChange={(e) => setBasis2(e.target.value)}></input>
+        </div>
+        <div className="input_div">
           flex-grow: <input className="flex_input" onChange={(e) => setGrow2(e.target.value)}></input>
         </div>
         <div className="input_div">
           flex-shrink: <input className="flex_input" onChange={(e) => setShrink2(e.target.value)}></input>
         </div>
-        
+
         Box 3
+        <div className="input_div">
+          flex-basis: <input className="flex_input" onChange={(e) => setBasis3(e.target.value)}></input>
+        </div>
         <div className="input_div">
           flex-grow: <input className="flex_input" onChange={(e) => setGrow3(e.target.value)}></input>
         </div>
