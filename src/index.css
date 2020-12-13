@@ -11,3 +11,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  margin: 0;
+  font-size: 9vmin;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-bottom: 1vmin solid black;
+}
+
+.App {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 90vh;
+
+  background-color: antiquewhite;
+}
+
+.flex_settings {
+  display: flex;
+  flex-flow: column;
+
+  position: relative;
+
+  width: 15vw;
+  height: 30vh;
+
+  margin-right: 5%;
+
+  overflow-y: scroll;
+}
+
+.input_div {
+  margin-bottom: 5%;
+}
+
+.flex_input {
+  width: 90%
+}
+
+.demo_flex_container {
+  display: flex;
+
+  width: 30vw;
+  height: 30vh;
+
+  background-color: white;
+  border: 2px solid black;
+}
+
+.one_div {
+  display: flex;
+
+  min-width: 6vmin;
+  height: 6vmin;  
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: aqua;
+
+  border: 1px solid black;
+}
+
+.two_div {
+  display: flex;
+
+  min-width: 6vmin;
+  height: 6vmin;  
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: red;
+
+  border: 1px solid black;
+}
+
+.three_div {
+  display: flex;
+
+  min-width: 6vmin;
+  height: 6vmin;  
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: yellow;
+
+  border: 1px solid black;
+}
