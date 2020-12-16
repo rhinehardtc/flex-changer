@@ -49,65 +49,65 @@ function App() {
 
   return (
     <>
-    <h1>Flex-Changer</h1>
-    <div className="App">
-      <div className="flex_settings">
-        <div className="input_div">
-          flex-direction: <input className="flex_input" onChange={(e) => setDirection(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          flex-wrap: <input className="flex_input" onChange={(e) => setWrap(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          flex-flow: <input className="flex_input" onChange={(e) => setFlow(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          align-items: <input className="flex_input" onChange={(e) => setAlign(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          justify-content: <input className="flex_input" onChange={(e) => setJustify(e.target.value)}></input>
+      <h1>Flex-Changer</h1>
+      <div className="App">
+        <div className="flex_settings">
+          <div className="input_div">
+            flex-direction: <input className="flex_input" onChange={(e) => setDirection(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            flex-wrap: <input className="flex_input" onChange={(e) => setWrap(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            flex-flow: <input className="flex_input" onChange={(e) => setFlow(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            align-items: <input className="flex_input" onChange={(e) => setAlign(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            justify-content: <input className="flex_input" onChange={(e) => setJustify(e.target.value)}></input>
+          </div>
+
+          Box 1
+          <div className="input_div">
+            flex-basis: <input className="flex_input" onChange={(e) => setBasis1(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            flex-grow: <input className="flex_input" onChange={(e) => setGrow1(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            flex-shrink: <input className="flex_input" onChange={(e) => setShrink1(e.target.value)}></input>
+          </div>
+
+          Box 2
+          <div className="input_div">
+            flex-basis: <input className="flex_input" onChange={(e) => setBasis2(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            flex-grow: <input className="flex_input" onChange={(e) => setGrow2(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            flex-shrink: <input className="flex_input" onChange={(e) => setShrink2(e.target.value)}></input>
+          </div>
+
+          Box 3
+          <div className="input_div">
+            flex-basis: <input className="flex_input" onChange={(e) => setBasis3(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            flex-grow: <input className="flex_input" onChange={(e) => setGrow3(e.target.value)}></input>
+          </div>
+          <div className="input_div">
+            flex-shrink: <input className="flex_input" onChange={(e) => setShrink3(e.target.value)}></input>
+          </div>
         </div>
 
-        Box 1
-        <div className="input_div">
-          flex-basis: <input className="flex_input" onChange={(e) => setBasis1(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          flex-grow: <input className="flex_input" onChange={(e) => setGrow1(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          flex-shrink: <input className="flex_input" onChange={(e) => setShrink1(e.target.value)}></input>
-        </div>
-
-        Box 2
-        <div className="input_div">
-          flex-basis: <input className="flex_input" onChange={(e) => setBasis2(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          flex-grow: <input className="flex_input" onChange={(e) => setGrow2(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          flex-shrink: <input className="flex_input" onChange={(e) => setShrink2(e.target.value)}></input>
-        </div>
-
-        Box 3
-        <div className="input_div">
-          flex-basis: <input className="flex_input" onChange={(e) => setBasis3(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          flex-grow: <input className="flex_input" onChange={(e) => setGrow3(e.target.value)}></input>
-        </div>
-        <div className="input_div">
-          flex-shrink: <input className="flex_input" onChange={(e) => setShrink3(e.target.value)}></input>
+        <div className="demo_flex_container" style={demoStyle}>
+          <div className="one_div" style={itemStyle1}>1</div>
+          <div className="two_div" style={itemStyle2}>2</div>
+          <div className="three_div" style={itemStyle3}>3</div>
         </div>
       </div>
-
-      <div className="demo_flex_container" style={demoStyle}>
-        <div className="one_div" style={itemStyle1}>1</div>
-        <div className="two_div" style={itemStyle2}>2</div>
-        <div className="three_div" style={itemStyle3}>3</div>
-      </div>
-    </div>
     </>
   );
 }
