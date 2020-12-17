@@ -2,25 +2,30 @@ import React, {useState} from 'react';
 
 function App() {
 
+  //flexbox styling for the container div
   const [direction, setDirection] = useState('');
   const [wrap, setWrap] = useState('');
   const [flow, setFlow] = useState('');
   const [align, setAlign] = useState('');
   const [justify, setJustify] = useState('');
 
+  //flex item styles for box 1
   const [basis1, setBasis1] = useState('');
   const [grow1, setGrow1] = useState('');
   const [shrink1, setShrink1] = useState('');
 
+  //flex item styles for box 2
   const [basis2, setBasis2] = useState('');
   const [grow2, setGrow2] = useState('');
   const [shrink2, setShrink2] = useState('');
 
+  //flex item styles for box 3
   const [basis3, setBasis3] = useState('');
   const [grow3, setGrow3] = useState('');
   const [shrink3, setShrink3] = useState('');
 
 
+  //styling used that correlates to the styles set in state
   let demoStyle = {
     flexDirection: direction, 
     flexWrap: wrap, 
