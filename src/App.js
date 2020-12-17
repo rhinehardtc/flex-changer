@@ -26,6 +26,8 @@ function App() {
 
 
   //styling used that correlates to the styles set in state
+
+  //for container div
   let demoStyle = {
     flexDirection: direction, 
     flexWrap: wrap, 
@@ -34,18 +36,21 @@ function App() {
     justifyContent: justify,
   };
 
+  //for box 1
   let itemStyle1 = {
     flexBasis: basis1,
     flexGrow: grow1,
     flexShrink: shrink1,
   }
 
+  //for box 2
   let itemStyle2 = {
     flexBasis: basis2,
     flexGrow: grow2,
     flexShrink: shrink2,
   }
 
+  //for box 3
   let itemStyle3 = {
     flexBasis: basis3,
     flexGrow: grow3,
@@ -56,6 +61,8 @@ function App() {
     <>
       <h1>Flex-Changer</h1>
       <div className="App">
+
+        {/*these are all the style inputs and use their own useState hooks*/}
         <div className="flex_settings">
           <div className="input_div">
             flex-direction: <input className="flex_input" onChange={(e) => setDirection(e.target.value)}></input>
@@ -107,6 +114,7 @@ function App() {
           </div>
         </div>
 
+        {/*this is the actual container that is effected by the input of new styles*/}
         <div className="demo_flex_container" style={demoStyle}>
           <div className="one_div" style={itemStyle1}>1</div>
           <div className="two_div" style={itemStyle2}>2</div>
